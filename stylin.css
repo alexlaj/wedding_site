@@ -1,0 +1,116 @@
+/* Green #319177
+Pink #FF1493
+Grey #44474E
+Red #FF0000 */
+
+body {
+  /* background-color: #f1e7cd; */
+  background-color: #319177;
+  font-family: "Homemade Apple", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 4em;
+  text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2em;
+  font-family: "Homemade Apple", sans-serif;
+  border-bottom: 1px solid black;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row * {
+  flex: 1 1 100%;
+}
+
+.tagline {
+  margin: 0;
+  padding: 0 30px;
+  font-size: 1.75rem;
+  display: inline-block;
+}
+
+.tagline i {
+  padding: 0 15px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
+nav {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 15px;
+}
+
+nav div {
+  padding: 0 10px;
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+}
+
+.fa-heart-o {
+  color: #f06d83;
+}
+
+.main-content {
+  margin: 50px 0;
+  text-align: center;
+  font-family: "Homemade Apple", sans-serif;
+  font-size: 3em;
+}
+
+.rotate {
+  -webkit-transform: rotate(-20deg);
+  /* Safari */
+  -moz-transform: rotate(-20deg);
+  /* Firefox */
+  -ms-transform: rotate(-20deg);
+  /* IE */
+  -o-transform: rotate(-20deg);
+  /* Opera */
+  transform: rotate(-10deg);
+}
+
+.date {
+  font-size: 2rem;
+}
+
+.info {
+  font-family: "Open Sans", sans-serif;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.gallery img {
+  max-width: 100%;
+  box-shadow: 0 0 1em black;
+}
+
+.gallery img:first-of-type {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.gallery img:last-of-type {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
